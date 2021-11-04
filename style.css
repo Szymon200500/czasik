@@ -58,6 +58,9 @@ margin: 10px;
 .opis{
 flex-direction: column;
 }
+.futures{
+display: none;
+}
 }
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
