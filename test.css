@@ -1,0 +1,27 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blue;
+  
+
+  }
+  
+  .flex-container > div {
+
+    margin: auto;
+    padding: 1px;
+    font-size: 30px;}
+    .content {
+        padding: 16px;
+        font-size: 30px;
+      }
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      .sticky + .content {
+        padding-top: 60px;
+      }

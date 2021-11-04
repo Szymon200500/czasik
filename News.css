@@ -1,0 +1,58 @@
+h1 
+{color: blueviolet;
+font-size: 300%;
+text-align: center;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blue;
+
+  }
+  
+  .flex-container > div {
+
+    margin: auto;
+    padding: 5px;
+    font-size: 30px;
+  }
+  a{
+    color: black;
+    text-decoration: none;
+    }
+.about{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.about > div {
+margin: auto;
+padding: 50px;
+font-size: 30px
+
+}
+.obrazek {
+display: flex;
+justify-content: center;
+}
+.obrazek > div{
+margin: auto;
+padding : 50px
+}
+@media screen and (max-width: 1200px) {
+  .about{
+  flex-direction: column;
+  }
+  body{
+    margin: 10px;
+    }
+  .obrazek
+  {display: none;}
+ 
+
+
+  }
+  
+    
+  
